@@ -86,6 +86,8 @@ class Character {
             cout << (c1.isAlive() ? c1.getName() : c2.getName()) << " wins the battle!" << endl;
         }
         };
+
+        
     int main() {
         srand(static_cast<unsigned int>(time(0)));
         OptimusPrime optimus;
